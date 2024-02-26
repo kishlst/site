@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(212, 187, 157);
+  margin: 0px;
+}
+
+.text {
+  border: 4px solid black;
+  text-align: center;
+  font-size: 3em;
+  font-family: cursive;
+  letter-spacing: 15px;
+  font-style: italic;
+  color: white;
+  background-color: black;
+  text-transform: capitalize;
+
+  /* свойство padding делает растояние между текстом и гранью. */
+  padding: 150px;
+  opacity: 0.8;
+}
+
+.text:hover {
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 80px;
+  opacity: 1;
+}
+
+.text::selection {
+  color: rgb(50, 66, 80);
+  text-decoration: underline;
+}
+
+p {
+  text-align: right;
+}
+
+.name {
+  text-align: right;
+  font-size: 3em;
+  font-style: italic;
+  font-weight: 550;
+}
+
+.main {
+  font-size: 3em;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
+.main:hover {
+  color: rgb(71, 5, 5);
+}
+
+p span::selection {
+  color: black;
+  background-color: white;
+}
